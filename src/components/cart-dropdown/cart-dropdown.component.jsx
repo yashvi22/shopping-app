@@ -7,7 +7,7 @@ function CartDropdown() {
     <div className="cart-dropdown">
       <div className="cart-items"/>
         <div className="button">
-          <CustomButton>GO TO CHECKOUT</CustomButton>
+          <CustomButton inverted>GO TO CHECKOUT</CustomButton>
         </div>
      
     </div>

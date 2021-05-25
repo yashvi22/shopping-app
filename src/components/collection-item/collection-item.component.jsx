@@ -1,7 +1,8 @@
-import React from "react";
+import React from "react"
+import { connect } from "react-redux";
+
 import "./collection-item.styles.scss";
 import CustomButton from "../button/button.component";
-import { connect } from "react-redux";
 import { addItem } from "../../redux/cart/cart.actions";
 
 const CollectionItem = ({ item, addItem }) => {
